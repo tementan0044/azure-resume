@@ -202,24 +202,32 @@ margin-top: 1.5rem;
     }
     
 /* socials*/
-.social_item{
+.fab fa-twitter, 
+.fab fa-linkedin, 
+.fab fa-github{
     margin-top: 2rem;
 }
 
-.social_item{
+.fab fa-twitter, 
+.fab fa-linkedin, 
+.fab fa-github{
 margin-top: 1.5rem;
-font-size: 1.5rem;   
+font-size: 2rem;   
 display: flex; 
 gap: 0.5rem;
 align-items: center;
 justify-content: flex-start;
 color: var(--text-color);
 }
-.social_item:hover {
+.fab fa-twitter, 
+.fab fa-linkedin, 
+.fab fa-github:hover {
     color: var(--primary-color);
 }
 
-.social_item svg {
+.fab fa-twitter, 
+.fab fa-linkedin, 
+.fab fa-github svg {
     width: 2rem;
 }
 hr{
@@ -241,4 +249,22 @@ hr{
     align-items: center;
     justify-content: flex-start;
     color: var(--text-color);
+}
+
+a{
+margin-top: 1.5rem;
+font-size: 1.3rem;   
+display: flex; 
+gap: 0.5rem;
+align-items: center;
+justify-content: flex-start;
+color: var(--text-color);
+}
+
+a:hover{
+    color: var(--primary-color);   
+}
+
+a svg {
+    width: 2rem;
 }
